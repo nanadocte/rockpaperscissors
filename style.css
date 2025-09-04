@@ -34,9 +34,9 @@ html, body {
 
 /* HEADER */
 header {
-  background: linear-gradient(135deg, var(--violet), var(--rose));
+  background: linear-gradient(135deg, var(--rouge), var(--rose));
   padding: 30px 20px;
-  border-radius: 24px 24px 0 0;
+  border-radius: 24px 24px 24px 24px;
   box-shadow: 0 0 30px rgba(255, 140, 220, 0.6);
   backdrop-filter: blur(12px);
   text-align: center;
@@ -96,8 +96,6 @@ button#jouer:hover {
   padding: 14px 36px;
   margin: 14px 12px;
   color: #2b2b2b;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #btn button:hover {
   transform: scale(1.12);
@@ -111,10 +109,6 @@ button#jouer:hover {
   max-width: 160px;
   box-shadow: 0 0 20px rgba(255,255,255,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-#results img:hover {
-  transform: scale(1.15);
-  box-shadow: 0 0 35px var(--rose), 0 0 55px var(--violet);
 }
 
 /* TITRES */
